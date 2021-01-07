@@ -23,20 +23,20 @@ function App() {
     <Router>
      <AidcpcMenu/>
      <Switch>
-       <Route path='/home' component={Home}/>
-       <Route path='/aidcpc' component={Aidcpc}/>
-       <Route path='/healthprofessionals' component={HealthProfessionals}/>
-       <Route path='/infdisease' component={InfDisease}/>
-       <Route path='/apn' component={ApNurse}/>
-       <Route path='/billing' component={Billing}/>
-       <Route path='/career' component={Career}/>
-       <Route path='/credentials' component={Credentials}/>
-       <Route path='/faqs' component={Faqs}/>
-       <Route path='/forms' component={Forms}/>
-       <Route path='/locations' component={Locations}/>
-       <Route path='/news' component={News}/>
-       <Route path='/patientptl' component={PatientPtl}/>
-       <Route path='/requestapt' component={RequestApt}/>
+       <Route path='/home' exact component={Home}/>
+       <Route path='/aidcpc' exact component={Aidcpc}/>
+       <Route path='/healthprofessionals' exact component={HealthProfessionals}/>
+       <Route path='/infdisease' exact component={InfDisease}/>
+       <Route path='/apn' exact component={ApNurse}/>
+       <Route path='/billing' exact component={Billing}/>
+       <Route path='/career' exact component={Career}/>
+       <Route path='/credentials' exact component={Credentials}/>
+       <Route path='/faqs' exact component={Faqs}/>
+       <Route path='/forms' exact component={Forms}/>
+       <Route path='/locations' exact component={Locations}/>
+       <Route path='/news' exact component={News}/>
+       <Route path='/patientptl' exact component={PatientPtl}/>
+       <Route path='/requestapt' exact component={RequestApt}/>
      </Switch>
    </Router>
     
