@@ -1,3 +1,19 @@
 .navbar-dark .navbar-nav .nav-link{
   color:#fff!important;
 }
+.footer-bg{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#007bff!important;
+   color: white;
+   text-align: center;
+}
+.footer-bg .contact{
+  margin-right: 5px;
+}
+.footer-bg .location,.copyright{
+  margin-right: 5px;
+  margin-left: 5px;
+}
