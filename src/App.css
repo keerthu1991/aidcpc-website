@@ -17,3 +17,33 @@
   margin-right: 5px;
   margin-left: 5px;
 }
+.aidcpc .container .card .list-group .list-group-item,
+.aidcpc .container .card,
+.landingpage .container .card .list-group .list-group-item,
+.landingpage .container .card,
+.insurance .container .card .list-group .list-group-item,
+.insurance .container .card{
+  border:none!important;
+}
+.locations .container .card,.infdisease .container .card,
+.faqs .container .card,.credentials .container .card,
+.career .container .card,.news .container .card,.forms .container .card{
+  border:none!important;
+}
+.forms .container:nth-child(2){
+  padding-bottom: 30px;
+}
+.forms .card-text a{
+  margin-top: 15px;
+}
+.healthprofessionals .card-deck{
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 600px){
+  .landingpage .container:nth-child(4){
+    padding-bottom: 30px;
+  }
+  .infdisease .container:nth-child(2){
+    padding-bottom: 30px;
+  }
+}

@@ -1,9 +1,11 @@
 import React from 'react';
+import Hero from "../common/Hero";
+import ListImage from '../common/ListImage';
 export default function InfDisease(){
     return(
-        <div className="container-fluid">
-        <p>
-        AIDC is the largest healthcare enterprise on the East Coast, 
+        <div className="infdisease">
+            <Hero name="What are the Services?"/>
+            <ListImage title="We Do..." description=" AIDC is the largest healthcare enterprise on the East Coast, 
         committed to the diagnosis, treatment and prevention of infectious diseases. 
         Our highly regarded physicians and exemplary staff offer patients, communities, healthcare facilities, government agencies 
         and corporate organizations access to an expansive variety of services. 
@@ -18,12 +20,8 @@ export default function InfDisease(){
         throughout New Jersey, we offer a wide-range of specialty services like infection prevention control, 
         antibiotic stewardship and expert witness testimony to individuals, hospitals and businesses. 
         AIDC is committed to providing exceptional care to our patients, continuously 
-        capturing feedback to ensure our quality of care remains consistent with the high standard our patients have come to expect.<br/>
-        <br/>
-
-    <strong>From all of us at AIDC , thank you for allowing us to care for you.</strong>
-       </p>
-      
-        </div>
+        capturing feedback to ensure our quality of care remains consistent with the high standard our patients have come to expect. 
+        From all of us at AIDC , thank you for allowing us to care for you." image="images/labtech.jpg" align="left"/>
+            </div>
     );
 }
