@@ -5,7 +5,7 @@ import Hero from "../common/Hero";
 import Container from 'react-bootstrap/Container';
 export default function HealthProfessionals(){
     return(
-      <div className="healthprofessionals" >
+      <div className="healthprofessionals">
         <Hero name="Our Health Professionals"/>
         <Container>
         <CardDeck>

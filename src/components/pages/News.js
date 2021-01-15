@@ -2,7 +2,7 @@ import React from 'react';
 import ListImage from '../common/ListImage';
 import Hero from "../common/Hero";
 export default function News() {
-    return ( <div className="news">
+    return ( <div>
         
         <Hero name="News"/> 
         <ListImage title="General News" description="" image="images/old-news.jpg" align="left"/>

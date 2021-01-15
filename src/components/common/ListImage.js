@@ -4,8 +4,9 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 export default function ListImage({title,description,image,listfirst,listsecond,listthird,listfourth,listfifth,listsixth,listseventh,align}) {
-    return (
-    <>{align === "right"? <>
+    
+  return (
+    <>{align === "right"? <div className="aidc">
         <Container>
              <Card>
     <Card.Img variant="top" src={image} />
@@ -29,7 +30,7 @@ export default function ListImage({title,description,image,listfirst,listsecond,
   </Card>
   <br/>
         </Container>
-        </>:<>
+        </div>:<div className="aidc">
         <Container>
              <Card>
     <Card.Img variant="top" src={image} />
@@ -41,7 +42,7 @@ export default function ListImage({title,description,image,listfirst,listsecond,
     </Card.Body>
   </Card>
   <br/>
-        </Container></>}
+        </Container></div>}
   </>
   
    );

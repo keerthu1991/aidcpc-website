@@ -1,28 +1,28 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
-export default function Download({title,description,image,pdf,buttonname}) {
-    
+export default function MailTo({title,description,image,mailto}) {
     return (
-    <div className="download">
-       <Container>
-             <Card className="text-center">
+      <>
+      <div className="aidc">
+      <Container>
+             <Card>
     <Card.Img variant="top" src={image} />
     <Card.Body>
     <Card.Title>{title}</Card.Title>
       <Card.Text>
         {description}
-        <br/>
-        <Button href={pdf}>{buttonname}</Button>
+        <a href="mailto:{mailto}">{mailto}</a>.
       </Card.Text>
     </Card.Body>
   </Card>
-  
+  <br/>
         </Container>
-    </div>
+            
+        </div>
+            
        
-  
+   </>
    );
 }

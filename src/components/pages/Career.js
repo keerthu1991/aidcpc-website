@@ -1,10 +1,11 @@
 import React from 'react';
-import ListImage from '../common/ListImage';
 import Hero from "../common/Hero";
+import MailTo from '../common/MailTo';
 export default function Career() {
-    return ( <div className="career" >
+    return ( <div>
         <Hero name="Career"/>
-        <ListImage title="Career Opportunities" description=" " image="images/career.png" align="left"/>
+        <MailTo title="Career Opportunities" description="We are actively looking for Infectious Diseases Physicians and APN's. 
+        Please send your CV to " mailto="idadvanced@gmail.com" image="images/career.png"/>
         </div>
     );
 }

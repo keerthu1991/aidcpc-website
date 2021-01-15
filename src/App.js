@@ -3,7 +3,7 @@ import Header from './components/common/Header';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Aidcpc from './components/pages/Aidcpc';
 import HealthProfessionals from './components/pages/HealthProfessionals';
-import InfDisease from './components/pages/InfDisease';
+import Services from './components/pages/Services';
 import Career from './components/pages/Career';
 import Credentials from './components/pages/Credentials';
 import Faqs from './components/pages/Faqs';
@@ -31,7 +31,7 @@ function App() {
         <Route path='/' exact component={LandingPage}/>
         <Route path='/aidcpc' exact component={Aidcpc}/>
         <Route path='/healthprofessionals' exact component={HealthProfessionals}/>
-        <Route path='/infdisease' exact component={InfDisease}/>
+        <Route path='/services' exact component={Services}/>
         <Route path='/career' exact component={Career}/>
         <Route path='/credentials' exact component={Credentials}/>
         <Route path='/faqs' exact component={Faqs}/>
