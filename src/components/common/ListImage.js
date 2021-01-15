@@ -2,8 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import { ListGroupItem } from 'react-bootstrap';
 
-export default function ListImage({title,description,image,listfirst,listsecond,listthird,listfourth,listfifth,listsixth,listseventh,align}) {
+export default function ListImage({title,description,image,align,val}) {
     
   return (
     <>{align === "right"? <div className="aidc">
@@ -16,13 +17,12 @@ export default function ListImage({title,description,image,listfirst,listsecond,
         {description}
         <Card>
   <ListGroup variant="flush">
-    <ListGroup.Item>{listfirst}</ListGroup.Item>
-    <ListGroup.Item>{listsecond}</ListGroup.Item>
-    <ListGroup.Item>{listthird}</ListGroup.Item>
-    <ListGroup.Item>{listfourth}</ListGroup.Item>
-    <ListGroup.Item>{listfifth}</ListGroup.Item>
-    <ListGroup.Item>{listsixth}</ListGroup.Item>
-    <ListGroup.Item>{listseventh}</ListGroup.Item>
+   {val.map((value,idx)=>{
+     return(
+      <ListGroupItem key={idx}>{value}</ListGroupItem>
+     )
+    
+   })}
   </ListGroup>
 </Card>
       </Card.Text>
