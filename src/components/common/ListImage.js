@@ -26,7 +26,6 @@ export default function ListImage({ title, description, image, align, val }) {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <br />
           </Container>
         </>
       ) : (
@@ -39,7 +38,6 @@ export default function ListImage({ title, description, image, align, val }) {
                 <Card.Text>{description}</Card.Text>
               </Card.Body>
             </Card>
-            <br />
           </Container>
         </>
       )}

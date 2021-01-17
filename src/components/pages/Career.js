@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../common/Hero';
 import MailTo from '../common/MailTo';
+import { idMail } from '../../utilities/strings';
 export default function Career() {
   return (
     <div>
@@ -9,7 +10,7 @@ export default function Career() {
         title="Career Opportunities"
         description="We are actively looking for Infectious Diseases Physicians and APN's. 
         Please send your CV to "
-        mailto="idadvanced@gmail.com"
+        mailto={idMail}
         image="images/career.png"
       />
     </div>

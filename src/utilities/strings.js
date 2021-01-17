@@ -5,4 +5,5 @@ const aidcDesc = [
   'HIV and sexually transmitted diseases.',
 ];
 const insuranceComp = ['abc', 'def', 'ghi', 'jkl'];
-export { aidcDesc, insuranceComp };
+const idMail = 'idadvanced@gmail.com';
+export { aidcDesc, insuranceComp, idMail };

@@ -23,7 +23,9 @@ function Header() {
                 Credentials
               </ReactBootstrap.NavDropdown.Item>
               <ReactBootstrap.NavDropdown.Item href="/locations">
-                Locations(Hospital,Nursing Home,Office)
+                Locations
+                <br />
+                (Hospital,Nursing Home,Office)
               </ReactBootstrap.NavDropdown.Item>
             </ReactBootstrap.NavDropdown>
             <ReactBootstrap.NavDropdown
@@ -31,7 +33,9 @@ function Header() {
               id="basic-nav-dropdown"
             >
               <ReactBootstrap.NavDropdown.Item href="/services">
-                ID CARE-DISEASES/TREATMENT PROVIDED
+                ID CARE-DISEASES/
+                <br />
+                TREATMENT PROVIDED
               </ReactBootstrap.NavDropdown.Item>
             </ReactBootstrap.NavDropdown>
             <ReactBootstrap.Nav.Link href="/faqs">

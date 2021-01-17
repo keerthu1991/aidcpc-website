@@ -12,11 +12,10 @@ export default function MailTo({ title, description, image, mailto }) {
             <Card.Title>{title}</Card.Title>
             <Card.Text>
               {description}
-              <a href="mailto:{mailto}">{mailto}</a>.
+              <a href={'mailto:' + mailto}>{mailto}</a>.
             </Card.Text>
           </Card.Body>
         </Card>
-        <br />
       </Container>
     </>
   );
