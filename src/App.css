@@ -1,43 +1,68 @@
-.navbar-dark .navbar-nav .nav-link{
-  color:#fff!important;
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
 }
-.footer-bg{
+.footer-bg {
   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color:#007bff!important;
-   color: white;
-   text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #007bff !important;
+  color: white;
+  text-align: center;
 }
-.footer-bg .contact{
+.footer-bg .contact {
   margin-right: 5px;
 }
-.footer-bg .location,.copyright{
+.footer-bg .location,
+.copyright {
   margin-right: 5px;
   margin-left: 5px;
 }
-.aidc .container .card .list-group .list-group-item,
-.aidc .container .card{
-  border:none!important;
+.healthprofessionals {
+  width: 20rem;
+  margin: 10px;
+  margin-bottom: 30px;
 }
-.download .container .card{
-  border:none!important;
+.healthprofessionals .card-footer {
+  text-align: center;
+  background-color: white !important;
 }
-.download .container:first-child{
-  padding-bottom: 30px;
+.cardinfo {
+  display: flex;
+  flex-flow: row wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 40px;
 }
-.download .card-text a{
-  margin-top: 15px;
+.listimage,
+.mailto,
+.download {
+  margin-bottom: 40px;
 }
-.healthprofessionals .card-deck{
-  padding-bottom: 30px;
+.listimage .card,
+.mailto .card,
+.download .card,
+.listimage .card .list-group .list-group-item {
+  border: none !important;
 }
-.feedback .container .card{
-  border: 5px solid #007bff!important;
+.download .card-text a {
+  margin-top: 10px;
 }
-@media only screen and (max-width: 600px){
-  .aidc .card-text:last-child{
+.feedback .card {
+  border: 5px solid #007bff !important;
+  margin-bottom: 30px;
+}
+.feedback {
+  margin-bottom: 60px;
+}
+.cred {
+  margin-bottom: 10px;
+}
+.cred .card {
+  border: none !important;
+}
+@media only screen and (max-width: 600px) {
+  .aidc .card-text:last-child {
     margin-bottom: 15px;
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/common/Header';
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Aidcpc from './components/pages/Aidcpc';
 import HealthProfessionals from './components/pages/HealthProfessionals';
 import Services from './components/pages/Services';
@@ -16,32 +16,30 @@ import Footer from './components/common/Footer';
 import LandingPage from './components/layout/LandingPage';
 import './App.css';
 
-
 function App() {
   return (
-    
-      <Router>
-       
-      
-      <Header/>
-     
+    <Router>
+      <Header />
 
-      
       <Switch>
-        <Route path='/' exact component={LandingPage}/>
-        <Route path='/aidcpc' exact component={Aidcpc}/>
-        <Route path='/healthprofessionals' exact component={HealthProfessionals}/>
-        <Route path='/services' exact component={Services}/>
-        <Route path='/career' exact component={Career}/>
-        <Route path='/credentials' exact component={Credentials}/>
-        <Route path='/faqs' exact component={Faqs}/>
-        <Route path='/forms' exact component={Forms}/>
-        <Route path='/locations' exact component={Locations}/>
-        <Route path='/news' exact component={News}/>
-        <Route path='/insuranceaccepted' exact component={InsuranceAccepted}/>
-        <Route path='/requestapt' exact component={RequestApt}/>
+        <Route path="/" exact component={LandingPage} />
+        <Route path="/aidcpc" exact component={Aidcpc} />
+        <Route
+          path="/healthprofessionals"
+          exact
+          component={HealthProfessionals}
+        />
+        <Route path="/services" exact component={Services} />
+        <Route path="/career" exact component={Career} />
+        <Route path="/credentials" exact component={Credentials} />
+        <Route path="/faqs" exact component={Faqs} />
+        <Route path="/forms" exact component={Forms} />
+        <Route path="/locations" exact component={Locations} />
+        <Route path="/news" exact component={News} />
+        <Route path="/insuranceaccepted" exact component={InsuranceAccepted} />
+        <Route path="/requestapt" exact component={RequestApt} />
       </Switch>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }
