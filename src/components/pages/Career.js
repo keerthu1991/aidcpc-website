@@ -5,9 +5,8 @@ import { idMail } from '../../utilities/strings';
 export default function Career() {
   return (
     <div>
-      <Hero name="Career" />
+      <Hero name="Career Opportunities" />
       <MailTo
-        title="Career Opportunities"
         description="We are actively looking for Infectious Diseases Physicians and APN's. 
         Please send your CV to "
         mailto={idMail}
