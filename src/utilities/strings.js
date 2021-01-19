@@ -1,9 +1,64 @@
-const aidcDesc = [
-  'Infectious diseases.',
-  'Infectious diseases.',
-  'Travel medicine and tropical diseases.',
-  'HIV and sexually transmitted diseases.',
+const diseasesFirst = [
+  'Abscess',
+  'Bacteremia',
+  'Cellulitis',
+  'Clostridium difficile (C. diff)',
+  'Cold Sores',
+  'Coronavirus',
+  'Diabetic Foot Infections',
+  'Diarrhea',
+  'E. Coli 0157: H7',
+  'Ehrlichiosis',
+  'Empyema',
+  'Endocarditis',
+  'Fever',
+  'Flu',
+  'Foodborne Illnesses',
+  'Genital Herpes',
+];
+const diseasesSecond = [
+  'Hepatitis A',
+  'Hepatitis B',
+  'Hepatitis C',
+  'HIV',
+  'Influenza',
+  'Joint Infections',
+  'Klebsiella pneumoniae',
+  'Lyme Disease',
+  'Measles',
+  'MRSA',
+  'Mumps',
+  'Oral Thrush',
+  'Osteomyelitis',
+  'Peptic Ulcers',
+  'Pneumonia',
+  'Rashes',
+];
+const diseasesThird = [
+  'Rheumatic Fever',
+  'Sepsis',
+  'Sexually Transmitted Diseases (STDs)',
+  'Shingles',
+  'Sinusitis',
+  'Skin Infections',
+  'Stasis Dermatitis',
+  'Strep Throat',
+  'Syphilis',
+  'Tick-Borne Diseases',
+  'Tuberculosis',
+  'Upper Respiratory Infections',
+  'Urinary Tract Infections',
+  'Wound Infections',
+  'Yeast Infections',
 ];
 const insuranceComp = ['abc', 'def', 'ghi', 'jkl'];
 const idMail = 'idadvanced@gmail.com';
-export { aidcDesc, insuranceComp, idMail };
+const idOff = 'idadvanced.office@gmail.com';
+export {
+  diseasesFirst,
+  diseasesSecond,
+  diseasesThird,
+  insuranceComp,
+  idMail,
+  idOff,
+};

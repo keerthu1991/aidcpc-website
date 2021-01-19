@@ -49,8 +49,33 @@
 }
 .listimage,
 .mailto,
-.download {
+.download,
+.listservice {
   margin-bottom: 40px;
+}
+.listservice .card-columns .card {
+  border: 1px solid black;
+}
+.listservice .card {
+  margin-bottom: 20px;
+}
+.locationimg .card {
+  border: none !important;
+}
+.locationimg {
+  margin-bottom: 10px;
+}
+.locationdesc .card {
+  border: none !important;
+}
+.locationdesc:last-child {
+  margin-bottom: 40px;
+}
+.listservice .card-columns .card .list-group .list-group-item {
+  border-bottom: 1px solid black;
+}
+.listservice .card-columns .card .list-group .list-group-item:last-child {
+  border-bottom: none;
 }
 .listimage .card,
 .mailto .card,
@@ -77,5 +102,11 @@
 @media only screen and (max-width: 600px) {
   .aidc .card-text:last-child {
     margin-bottom: 15px;
+  }
+  .listservice .card-columns .card:last-child {
+    margin-bottom: 60px;
+  }
+  .locationdesc:last-child {
+    margin-bottom: 60px;
   }
 }

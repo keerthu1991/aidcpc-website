@@ -8,9 +8,9 @@ export default function Forms() {
       <Hero name="Registration Form" />
       <Download
         title="Patient Registration Form"
-        description="Kindly download the same, fill it and bring it while you visit the clinic"
+        description="Kindly download the patient form, fill it and bring it while you visit the clinic"
         image="images/form.jpg"
-        pdf="images/regform.pdf"
+        pdf="images/patientform.docx"
         buttonname="Download Patient Registration Form"
       />
     </div>

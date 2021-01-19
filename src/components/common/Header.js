@@ -33,7 +33,7 @@ function Header() {
               id="basic-nav-dropdown"
             >
               <ReactBootstrap.NavDropdown.Item href="/services">
-                ID CARE-DISEASES/
+                AIDC-
                 <br />
                 TREATMENT PROVIDED
               </ReactBootstrap.NavDropdown.Item>
