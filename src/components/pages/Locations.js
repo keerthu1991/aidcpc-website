@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from '../common/Hero';
-import ListImage from '../common/ListImage';
 import LocationImg from '../common/LocationImg';
 import LocationDesc from '../common/LocationDesc';
 export default function Locations() {
