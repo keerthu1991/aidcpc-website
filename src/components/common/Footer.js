@@ -8,7 +8,11 @@ function Footer() {
         <span className="location">Location: NJ</span>|
         <span className="copyright">Copyright &copy; 2020</span>|
         <span className="developer">
-          <a href="https://www.linkedin.com/in/keerthanambika-n-60164454/">
+          <a
+            href="https://www.linkedin.com/in/keerthanambika-n-60164454/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Developed by Keerthanambika N
           </a>
         </span>
