@@ -23,9 +23,15 @@
   margin-right: 5px;
 }
 .footer-bg .location,
-.copyright {
+.footer-bg .copyright,
+.footer-bg .developer {
   margin-right: 5px;
   margin-left: 5px;
+}
+.footer-bg .developer a:active,
+.footer-bg .developer a:visited,
+.footer-bg .developer a:hover {
+  color: #fff !important;
 }
 .healthprofessionals {
   width: 20rem;
