@@ -112,6 +112,9 @@
   .aidc .card-text:last-child {
     margin-bottom: 15px;
   }
+  .accordionpg {
+    margin-bottom: 60px;
+  }
   .listservice .card-columns .card:last-child {
     margin-bottom: 60px;
   }
