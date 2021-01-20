@@ -10,11 +10,11 @@ import {
 } from '../../utilities/strings';
 import Container from 'react-bootstrap/Container';
 
-export default function ListService({ image }) {
+export default function ListService({ image, alt }) {
   return (
     <Container className="listservice">
       <Card>
-        <Card.Img variant="top" src={image} />
+        <Card.Img alt={alt} variant="top" src={image} />
       </Card>
       <CardColumns>
         <Card>

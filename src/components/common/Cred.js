@@ -6,7 +6,7 @@ export default function FeedbackInfo({ title, image }) {
     <>
       <Container className="cred">
         <Card>
-          <Card.Img variant="top" src={image} />
+          <Card.Img variant="top" alt={title} src={image} />
           <Card.Body>
             <Card.Title>{title}</Card.Title>
           </Card.Body>

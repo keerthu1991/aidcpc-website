@@ -7,7 +7,7 @@ export default function MailTo({ title, description, image, mailto }) {
     <>
       <Container className="mailto">
         <Card>
-          <Card.Img variant="top" src={image} />
+          <Card.Img alt={title} variant="top" src={image} />
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text>

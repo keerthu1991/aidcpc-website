@@ -69,12 +69,6 @@
 .inscomp .card {
   margin-bottom: 20px;
 }
-.locationimg .card {
-  border: none !important;
-}
-.locationimg {
-  margin-bottom: 10px;
-}
 .locationdesc .card {
   border: none !important;
 }
@@ -131,7 +125,7 @@
     width: 385px !important;
   }
 }
-@media only screen and (min-width: 600px) {
+@media screen and (max-width: 1024px) and (min-width: 600px) {
   .aidclocations .card iframe {
     width: 750px !important;
   }

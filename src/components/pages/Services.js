@@ -6,7 +6,7 @@ export default function Services() {
   return (
     <div className="servicelist">
       <Hero name="AIDC-Treatment Provided" />
-      <ListService image="images/services.jpg" />
+      <ListService alt="AIDC-Treatment Provided" image="images/services.jpg" />
     </div>
   );
 }

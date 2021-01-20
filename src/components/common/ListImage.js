@@ -11,7 +11,7 @@ export default function ListImage({ title, description, image, align, val }) {
         <>
           <Container className="listimage">
             <Card>
-              <Card.Img variant="top" src={image} />
+              <Card.Img alt={title} variant="top" src={image} />
               <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>
@@ -32,7 +32,7 @@ export default function ListImage({ title, description, image, align, val }) {
         <>
           <Container className="listimage">
             <Card>
-              <Card.Img variant="top" src={image} />
+              <Card.Img alt={title} variant="top" src={image} />
               <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{description}</Card.Text>

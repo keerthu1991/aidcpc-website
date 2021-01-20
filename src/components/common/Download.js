@@ -14,7 +14,7 @@ export default function Download({
     <>
       <Container className="download">
         <Card className="text-center">
-          <Card.Img variant="top" src={image} />
+          <Card.Img variant="top" alt={title} src={image} />
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text>

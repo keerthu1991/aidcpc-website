@@ -33,6 +33,7 @@ export default function HealthProfessionals() {
           image="images/charu.jpg"
           href="https://www.healthgrades.com/physician/dr-charumathi-rathnakumar-3kn8v"
           buttonname="View Profile"
+          alt="About this doctor"
         />
         <CardInfo
           title="Dr.Charumathi Rathnakumar"

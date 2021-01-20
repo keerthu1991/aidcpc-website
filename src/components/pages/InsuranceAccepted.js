@@ -5,7 +5,7 @@ export default function InsuranceAccepted() {
   return (
     <div>
       <Hero name="Insurance Accepted" />
-      <InsComp image="images/ppl.jpg" />
+      <InsComp alt="Insurance Accepted" image="images/ppl.jpg" />
     </div>
   );
 }

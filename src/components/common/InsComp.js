@@ -6,11 +6,11 @@ import CardColumns from 'react-bootstrap/CardColumns';
 import { insCompOne, insCompTwo, insCompThree } from '../../utilities/strings';
 import Container from 'react-bootstrap/Container';
 
-export default function InsComp({ image }) {
+export default function InsComp({ image, alt }) {
   return (
     <Container className="inscomp">
       <Card>
-        <Card.Img variant="top" src={image} />
+        <Card.Img variant="top" alt={alt} src={image} />
       </Card>
       <CardColumns>
         <Card>

@@ -12,7 +12,7 @@ export default function CardInfo({
   return (
     <>
       <Card className="healthprofessionals">
-        <Card.Img variant="top" src={image} />
+        <Card.Img variant="top" alt={title} src={image} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
