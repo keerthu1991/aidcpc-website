@@ -50,13 +50,23 @@
 .listimage,
 .mailto,
 .download,
-.listservice {
+.listservice,
+.inscomp,
+.accordionpg {
   margin-bottom: 40px;
 }
-.listservice .card-columns .card {
+.accordionpg .accordion {
+  margin-bottom: 10px;
+}
+.accordionpg .accordion .card-header .btn:focus {
+  box-shadow: none;
+}
+.listservice .card-columns .card,
+.inscomp .card-columns .card {
   border: 1px solid black;
 }
-.listservice .card {
+.listservice .card,
+.inscomp .card {
   margin-bottom: 20px;
 }
 .locationimg .card {
@@ -68,13 +78,18 @@
 .locationdesc .card {
   border: none !important;
 }
+.aidclocations .card {
+  border: none !important;
+}
 .locationdesc:last-child {
   margin-bottom: 40px;
 }
-.listservice .card-columns .card .list-group .list-group-item {
+.listservice .card-columns .card .list-group .list-group-item,
+.inscomp .card-columns .card .list-group .list-group-item {
   border-bottom: 1px solid black;
 }
-.listservice .card-columns .card .list-group .list-group-item:last-child {
+.listservice .card-columns .card .list-group .list-group-item:last-child,
+.inscomp .card-columns .card .list-group .list-group-item:last-child {
   border-bottom: none;
 }
 .listimage .card,
@@ -106,7 +121,18 @@
   .listservice .card-columns .card:last-child {
     margin-bottom: 60px;
   }
+  .inscomp .card-columns .card:last-child {
+    margin-bottom: 60px;
+  }
   .locationdesc:last-child {
     margin-bottom: 60px;
+  }
+  .aidclocations .card iframe {
+    width: 385px !important;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .aidclocations .card iframe {
+    width: 750px !important;
   }
 }

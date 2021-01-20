@@ -1,34 +1,17 @@
 import React from 'react';
-import ListImage from '../common/ListImage';
+import AccordionPg from '../common/AccordionPg';
 import Hero from '../common/Hero';
+import Container from 'react-bootstrap/Container';
 export default function News() {
   return (
-    <div>
+    <>
       <Hero name="News" />
-      <ListImage
-        title="General News"
-        description=""
-        image="images/old-news.jpg"
-        align="left"
-      />
-      <ListImage
-        title="Infection Related News"
-        description=""
-        image="images/news.png"
-        align="left"
-      />
-      <ListImage
-        title="Covid News"
-        description=""
-        image="images/cov-news.jpeg"
-        align="left"
-      />
-      <ListImage
-        title="Covid Latest"
-        description=""
-        image="images/cov-inf-news.jpg"
-        align="left"
-      />
-    </div>
+      <Container className="accordionpg">
+        <AccordionPg title="Covid Latest" image="images/cov-inf-news.jpg" />
+        <AccordionPg title="Covid News" image="images/cov-news.jpeg" />
+        <AccordionPg title="General News" image="images/old-news.jpg" />
+        <AccordionPg title="Infection Related News" image="images/news.png" />
+      </Container>
+    </>
   );
 }

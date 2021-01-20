@@ -1,12 +1,12 @@
 import React from 'react';
 import Hero from '../common/Hero';
-import LocationImg from '../common/LocationImg';
 import LocationDesc from '../common/LocationDesc';
+import AIDCLocations from '../common/AIDCLocations';
 export default function Locations() {
   return (
     <div>
       <Hero name="Locations" />
-      <LocationImg image="images/hosp.jpg" />
+      <AIDCLocations />
       <LocationDesc
         title="Office"
         description="98 James St Suite 200, Edison, NJ 08820"
