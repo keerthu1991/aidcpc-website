@@ -7,7 +7,7 @@ export default function Credentials() {
   return (
     <>
       <p>
-        <Hero name="Credentials from Our Patients" />
+        <Hero name="Testimonials from Our Patients" />
 
         <Cred image="images/feedback.jpg" />
 

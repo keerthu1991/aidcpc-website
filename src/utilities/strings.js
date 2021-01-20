@@ -16,6 +16,42 @@ const diseasesFirst = [
   'Foodborne Illnesses',
   'Genital Herpes',
 ];
+const faqAccordion = [
+  {
+    title: "COVID-19 Infection FAQ's",
+    image: 'images/faq-covid.jpg',
+  },
+  {
+    title: "MRSA Infection FAQ's",
+    image: 'images/faq-mrsa.jpg',
+  },
+];
+const newsAccordion = [
+  {
+    title: 'Infectious Diseases',
+    image: 'images/news.png',
+  },
+  {
+    title: 'Covid',
+    image: 'images/cov-inf-news.jpg',
+  },
+  {
+    title: 'General',
+    image: 'images/old-news.jpg',
+  },
+];
+const hospLocations = [
+  {
+    title: 'Hackensack Meridian Health JFK Medical Center',
+    description: '65 James St, Edison, NJ 08820',
+    align: 'left',
+  },
+  {
+    title: 'Robert Wood Johnson University Hospital Rahway',
+    description: '865 Stone St, Rahway, NJ 07065',
+    align: 'left',
+  },
+];
 const diseasesSecond = [
   'Hepatitis A',
   'Hepatitis B',
@@ -115,5 +151,8 @@ export {
   insCompTwo,
   insCompThree,
   idMail,
+  faqAccordion,
+  newsAccordion,
+  hospLocations,
   idOff,
 };

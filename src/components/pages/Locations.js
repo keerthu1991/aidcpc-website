@@ -2,6 +2,9 @@ import React from 'react';
 import Hero from '../common/Hero';
 import LocationDesc from '../common/LocationDesc';
 import AIDCLocations from '../common/AIDCLocations';
+import Card from 'react-bootstrap/Card';
+import { hospLocations } from '../../utilities/strings';
+import Container from 'react-bootstrap/Container';
 export default function Locations() {
   return (
     <div>
@@ -10,15 +13,21 @@ export default function Locations() {
       <LocationDesc
         title="Office"
         description="98 James St Suite 200, Edison, NJ 08820"
+        image="images/officebldg.jpg"
+        align="right"
       />
-      <LocationDesc
-        title="Hackensack Meridian Health JFK Medical Center"
-        description="65 James St, Edison, NJ 08820"
-      />
-      <LocationDesc
-        title="Robert Wood Johnson University Hospital Rahway"
-        description="865 Stone St, Rahway, NJ 07065"
-      />
+      <Container className="locationdesc">
+        <Card.Header>Hospitals Affliated</Card.Header>
+        {hospLocations.map((hosp, idx) => {
+          return (
+            <LocationDesc
+              title={hosp.title}
+              description={hosp.description}
+              align={hosp.align}
+            />
+          );
+        })}
+      </Container>
     </div>
   );
 }

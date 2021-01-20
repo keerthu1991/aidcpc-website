@@ -20,7 +20,7 @@ function Header() {
                 Health Professionals
               </ReactBootstrap.NavDropdown.Item>
               <ReactBootstrap.NavDropdown.Item href="/credentials">
-                Credentials
+                Testimonials
               </ReactBootstrap.NavDropdown.Item>
               <ReactBootstrap.NavDropdown.Item href="/locations">
                 Locations

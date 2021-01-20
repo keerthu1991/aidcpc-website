@@ -2,15 +2,24 @@ import React from 'react';
 import AccordionPg from '../common/AccordionPg';
 import Hero from '../common/Hero';
 import Container from 'react-bootstrap/Container';
+import Accordion from 'react-bootstrap/Accordion';
+import { newsAccordion } from '../../utilities/strings';
 export default function News() {
   return (
     <>
       <Hero name="News" />
       <Container className="accordionpg">
-        <AccordionPg title="Covid Latest" image="images/cov-inf-news.jpg" />
-        <AccordionPg title="Covid News" image="images/cov-news.jpeg" />
-        <AccordionPg title="General News" image="images/old-news.jpg" />
-        <AccordionPg title="Infection Related News" image="images/news.png" />
+        <Accordion>
+          {newsAccordion.map((news, idx) => {
+            return (
+              <AccordionPg
+                title={news.title}
+                image={news.image}
+                event={idx === 0 ? '0' : idx}
+              />
+            );
+          })}
+        </Accordion>
       </Container>
     </>
   );

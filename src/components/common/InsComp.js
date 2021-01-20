@@ -6,11 +6,18 @@ import CardColumns from 'react-bootstrap/CardColumns';
 import { insCompOne, insCompTwo, insCompThree } from '../../utilities/strings';
 import Container from 'react-bootstrap/Container';
 
-export default function InsComp({ image, alt }) {
+export default function InsComp({ image, alt, title, description, mailto }) {
   return (
     <Container className="inscomp">
       <Card>
         <Card.Img variant="top" alt={alt} src={image} />
+        <Card.Body>
+          <Card.Title>{title}</Card.Title>
+          <Card.Text>
+            {description}
+            <a href={'mailto:' + mailto}>{mailto}</a>.
+          </Card.Text>
+        </Card.Body>
       </Card>
       <CardColumns>
         <Card>
