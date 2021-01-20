@@ -23,6 +23,7 @@ export default function LocationDesc({ title, description, image, align }) {
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>{description}</Card.Text>
+              <Card.Img alt={title} variant="top" src={image} />
             </Card.Body>
           </Card>
         </>

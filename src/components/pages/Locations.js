@@ -23,6 +23,7 @@ export default function Locations() {
             <LocationDesc
               title={hosp.title}
               description={hosp.description}
+              image={hosp.image}
               align={hosp.align}
             />
           );
