@@ -1,18 +1,23 @@
 import React from 'react';
 import Hero from '../common/Hero';
 import Download from '../common/Download';
+import { downloadForm } from '../../utilities/strings';
 
 export default function Forms() {
   return (
     <div>
       <Hero name="Registration Form" />
-      <Download
-        title="Patient Registration Form"
-        description="Kindly download the patient form, fill it and bring it while you visit the clinic"
-        image="images/form.jpg"
-        pdf="images/patientform.docx"
-        buttonname="Download Patient Registration Form"
-      />
+      {downloadForm.map((form, idx) => {
+        return (
+          <Download
+            title={form.title}
+            description={form.description}
+            pdf={form.pdf}
+            image={form.image}
+            buttonname={form.buttonname}
+          />
+        );
+      })}
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from './components/common/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Aidcpc from './components/pages/Aidcpc';
+import Aidc from './components/pages/Aidc';
 import HealthProfessionals from './components/pages/HealthProfessionals';
 import Services from './components/pages/Services';
 import Career from './components/pages/Career';
-import Credentials from './components/pages/Credentials';
+import Testimonials from './components/pages/Testimonials';
 import Faqs from './components/pages/Faqs';
 import Forms from './components/pages/Forms';
 import Locations from './components/pages/Locations';
@@ -23,7 +23,7 @@ function App() {
 
       <Switch>
         <Route path="/" exact component={LandingPage} />
-        <Route path="/aidcpc" exact component={Aidcpc} />
+        <Route path="/aidc" exact component={Aidc} />
         <Route
           path="/healthprofessionals"
           exact
@@ -31,7 +31,7 @@ function App() {
         />
         <Route path="/services" exact component={Services} />
         <Route path="/career" exact component={Career} />
-        <Route path="/credentials" exact component={Credentials} />
+        <Route path="/testimonials" exact component={Testimonials} />
         <Route path="/faqs" exact component={Faqs} />
         <Route path="/forms" exact component={Forms} />
         <Route path="/locations" exact component={Locations} />

@@ -13,13 +13,13 @@ function Header() {
               title="About Us"
               id="basic-nav-dropdown"
             >
-              <ReactBootstrap.NavDropdown.Item href="/aidcpc">
+              <ReactBootstrap.NavDropdown.Item href="/aidc">
                 AIDC
               </ReactBootstrap.NavDropdown.Item>
               <ReactBootstrap.NavDropdown.Item href="/healthprofessionals">
                 Health Professionals
               </ReactBootstrap.NavDropdown.Item>
-              <ReactBootstrap.NavDropdown.Item href="/credentials">
+              <ReactBootstrap.NavDropdown.Item href="/testimonials">
                 Testimonials
               </ReactBootstrap.NavDropdown.Item>
               <ReactBootstrap.NavDropdown.Item href="/locations">

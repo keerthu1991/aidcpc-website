@@ -8,7 +8,7 @@ export default function RequestApt() {
         <Alert.Heading>For AIDC appointments</Alert.Heading>
         <hr />
         <p className="mb-0">
-          Please contact 732-230-2828 between 9.30 AM and 5.30PM
+          Please contact 732-230-2828 between 9.30 AM and 5.30 PM
           <br />
           (Or)
           <br />
