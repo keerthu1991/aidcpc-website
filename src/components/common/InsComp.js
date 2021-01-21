@@ -3,7 +3,11 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { ListGroupItem } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
-import { insCompOne, insCompTwo, insCompThree } from '../../utilities/strings';
+import {
+  insCompOne,
+  insCompTwo,
+  insCompThree,
+} from '../../utilities/inscompstrings';
 import Container from 'react-bootstrap/Container';
 
 export default function InsComp({ image, alt, title, description, mailto }) {

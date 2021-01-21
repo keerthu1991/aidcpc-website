@@ -7,7 +7,7 @@ import {
   diseasesFirst,
   diseasesSecond,
   diseasesThird,
-} from '../../utilities/strings';
+} from '../../utilities/diseasesstrings';
 import Container from 'react-bootstrap/Container';
 
 export default function ListService({ image, alt }) {

@@ -3,19 +3,27 @@ import Hero from '../common/Hero';
 import LocationDesc from '../common/LocationDesc';
 import AIDCLocations from '../common/AIDCLocations';
 import Card from 'react-bootstrap/Card';
-import { hospLocations } from '../../utilities/strings';
+import {
+  heroLocations,
+  hospLocations,
+  offLocation,
+} from '../../utilities/locationstrings';
 import Container from 'react-bootstrap/Container';
 export default function Locations() {
   return (
     <div>
-      <Hero name="Locations" />
+      <Hero name={heroLocations} />
       <AIDCLocations />
-      <LocationDesc
-        title="Office"
-        description="98 James St Suite 200, Edison, NJ 08820"
-        image="images/officebldg.jpg"
-        align="right"
-      />
+      {offLocation.map((office, idx) => {
+        return (
+          <LocationDesc
+            title={office.title}
+            description={office.description}
+            image={office.image}
+            align={office.align}
+          />
+        );
+      })}
       <Container className="locationdesc">
         <Card.Header>Hospitals Affliated</Card.Header>
         {hospLocations.map((hosp, idx) => {

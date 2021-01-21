@@ -1,11 +1,11 @@
 import React from 'react';
 import Alert from 'react-bootstrap/Alert';
-import { idOff } from '../../utilities/strings';
+import { idOff, requestApt } from '../../utilities/otherstrings';
 export default function RequestApt() {
   return (
     <>
       <Alert variant="success">
-        <Alert.Heading>For AIDC appointments</Alert.Heading>
+        <Alert.Heading>{requestApt}</Alert.Heading>
         <hr />
         <p className="mb-0">
           Please contact 732-230-2828 between 9.30 AM and 5.30 PM

@@ -86,7 +86,8 @@
 .inscomp .card:first-child {
   margin-bottom: 15px;
 }
-.inscomp .card .locationdesc .card {
+.inscomp .card,
+.locationdesc .card {
   border: none !important;
 }
 .locationdesc .card-header {
@@ -129,7 +130,7 @@
   margin-bottom: 60px;
 }
 .cred {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .cred .card {
   border: none !important;

@@ -1,11 +1,11 @@
 import React from 'react';
 import Hero from '../common/Hero';
 import ListImage from '../common/ListImage';
-import { aboutUs } from '../../utilities/strings';
+import { aboutUs, heroAidc } from '../../utilities/aidcstrings';
 export default function Aidcpc() {
   return (
     <div>
-      <Hero name="Advanced Infectious Diseases Consultants" />
+      <Hero name={heroAidc} />
       {aboutUs.map((about, idx) => {
         return (
           <ListImage

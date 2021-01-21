@@ -2,11 +2,11 @@ import React from 'react';
 import CardInfo from '../common/CardInfo';
 import Hero from '../common/Hero';
 import Container from 'react-bootstrap/Container';
-import { doctorInfo } from '../../utilities/strings';
+import { doctorInfo, heroHealthProf } from '../../utilities/doctorstrings';
 export default function HealthProfessionals() {
   return (
     <>
-      <Hero name="Our Health Professionals" />
+      <Hero name={heroHealthProf} />
       <Container className="cardinfo">
         {doctorInfo.map((doctor, idx) => {
           return (

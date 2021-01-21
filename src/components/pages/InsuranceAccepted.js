@@ -1,11 +1,11 @@
 import React from 'react';
 import Hero from '../common/Hero';
 import InsComp from '../common/InsComp';
-import { insComp } from '../../utilities/strings';
+import { insComp, heroIns } from '../../utilities/insurancestrings';
 export default function InsuranceAccepted() {
   return (
     <div>
-      <Hero name="Insurance" />
+      <Hero name={heroIns} />
       {insComp.map((insurance, idx) => {
         return (
           <InsComp

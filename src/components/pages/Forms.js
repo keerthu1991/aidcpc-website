@@ -1,12 +1,12 @@
 import React from 'react';
 import Hero from '../common/Hero';
 import Download from '../common/Download';
-import { downloadForm } from '../../utilities/strings';
+import { downloadForm, heroForm } from '../../utilities/formstrings';
 
 export default function Forms() {
   return (
     <div>
-      <Hero name="Registration Form" />
+      <Hero name={heroForm} />
       {downloadForm.map((form, idx) => {
         return (
           <Download

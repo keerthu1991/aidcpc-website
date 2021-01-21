@@ -1,11 +1,11 @@
 import React from 'react';
 import Hero from '../common/Hero';
 import MailTo from '../common/MailTo';
-import { careerOpp } from '../../utilities/strings';
+import { careerOpp, heroCareer } from '../../utilities/careerstrings';
 export default function Career() {
   return (
     <div>
-      <Hero name="Career Opportunities" />
+      <Hero name={heroCareer} />
       {careerOpp.map((career, idx) => {
         return (
           <MailTo

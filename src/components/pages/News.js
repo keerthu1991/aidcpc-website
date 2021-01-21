@@ -3,11 +3,11 @@ import AccordionPg from '../common/AccordionPg';
 import Hero from '../common/Hero';
 import Container from 'react-bootstrap/Container';
 import Accordion from 'react-bootstrap/Accordion';
-import { newsAccordion } from '../../utilities/strings';
+import { heroNews, newsAccordion } from '../../utilities/newsstrings';
 export default function News() {
   return (
     <>
-      <Hero name="News" />
+      <Hero name={heroNews} />
       <Container className="accordionpg">
         <Accordion>
           {newsAccordion.map((news, idx) => {

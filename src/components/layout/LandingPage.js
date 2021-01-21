@@ -1,15 +1,14 @@
 import React from 'react';
-import { landingPage } from '../../utilities/strings';
+import { heroLanding, landingPage } from '../../utilities/landingstrings';
 import Hero from '../common/Hero';
 import ListImage from '../common/ListImage';
 
 function LandingPage() {
   return (
     <>
-      <Hero
-        name="Welcome to Advanced Infectious Diseases Consultants!"
-        abbr="(AIDC)"
-      />
+      {heroLanding.map((hero, idx) => {
+        return <Hero name={hero.name} abbr={hero.abbr} />;
+      })}
       {landingPage.map((landing, idx) => {
         return (
           <ListImage
