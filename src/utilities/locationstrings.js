@@ -15,13 +15,29 @@ const hospLocations = [
 
 const offLocation = [
   {
-    title: 'Office',
+    title: 'AIDC Office',
     description: '98 James St Suite 200, Edison, NJ 08820',
     image: 'images/officebldg.jpg',
     align: 'right',
   },
 ];
-
+const nursinglocations = [
+  {
+    title: 'Kindred Healthcare',
+    description: '680 South Fourth St Louisville, KY 40202',
+    image: 'images/kindred.jpg',
+    align: 'left',
+  },
+];
+const hospHeading = 'Hospitals Affliated';
+const nursingHeading = 'Nursing Homes';
 const heroLocations = 'Locations';
 
-export { heroLocations, hospLocations, offLocation };
+export {
+  heroLocations,
+  hospLocations,
+  offLocation,
+  hospHeading,
+  nursingHeading,
+  nursinglocations,
+};

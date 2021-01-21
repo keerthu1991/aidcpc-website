@@ -8,6 +8,6 @@ const aboutUs = [
   },
 ];
 
-const heroAidc = 'Advanced Infectious Diseases Consultants';
+const heroAidc = 'Advanced Infectious Diseases Consultants(AIDC)';
 
 export { aboutUs, heroAidc };

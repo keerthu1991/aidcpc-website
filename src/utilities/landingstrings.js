@@ -10,8 +10,7 @@ const landingPage = [
 
 const heroLanding = [
   {
-    name: 'Welcome to Advanced Infectious Diseases Consultants!',
-    abbr: '(AIDC)',
+    name: 'Welcome to Advanced Infectious Diseases Consultants(AIDC)',
   },
 ];
 

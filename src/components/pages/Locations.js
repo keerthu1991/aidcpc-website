@@ -6,7 +6,10 @@ import Card from 'react-bootstrap/Card';
 import {
   heroLocations,
   hospLocations,
+  nursingHeading,
+  nursinglocations,
   offLocation,
+  hospHeading,
 } from '../../utilities/locationstrings';
 import Container from 'react-bootstrap/Container';
 export default function Locations() {
@@ -25,7 +28,7 @@ export default function Locations() {
         );
       })}
       <Container className="locationdesc">
-        <Card.Header>Hospitals Affliated</Card.Header>
+        <Card.Header>{hospHeading}</Card.Header>
         {hospLocations.map((hosp, idx) => {
           return (
             <LocationDesc
@@ -33,6 +36,19 @@ export default function Locations() {
               description={hosp.description}
               image={hosp.image}
               align={hosp.align}
+            />
+          );
+        })}
+      </Container>
+      <Container className="locationdesc">
+        <Card.Header>{nursingHeading}</Card.Header>
+        {nursinglocations.map((nursing, idx) => {
+          return (
+            <LocationDesc
+              title={nursing.title}
+              description={nursing.description}
+              image={nursing.image}
+              align={nursing.align}
             />
           );
         })}

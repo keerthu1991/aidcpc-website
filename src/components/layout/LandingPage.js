@@ -7,7 +7,7 @@ function LandingPage() {
   return (
     <>
       {heroLanding.map((hero, idx) => {
-        return <Hero name={hero.name} abbr={hero.abbr} />;
+        return <Hero name={hero.name} />;
       })}
       {landingPage.map((landing, idx) => {
         return (
