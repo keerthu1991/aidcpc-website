@@ -60,10 +60,16 @@
 }
 .accordionpg .card {
   margin-bottom: 10px;
-  border: none;
-  border-bottom: none;
+  border: 1px solid #007bff !important;
+  border-bottom: 1px solid #007bff !important;
   background-color: #007bff;
   background-image: linear-gradient(45deg, black, transparent);
+}
+.accordionpg .card:nth-child(even) {
+  border-bottom: 1px solid #007bff !important;
+}
+.accordionpg .card:nth-child(odd) {
+  border-bottom: 1px solid #007bff !important;
 }
 .accordionpg .card .card-header .btn:focus {
   box-shadow: none;
@@ -76,11 +82,11 @@
 .inscomp .card-columns .card {
   border: 1px solid black !important;
 }
-.listservice .card,
-.inscomp .card {
-  margin-bottom: 20px;
+.listservice .card:first-child,
+.inscomp .card:first-child {
+  margin-bottom: 15px;
 }
-.locationdesc .card {
+.inscomp .card .locationdesc .card {
   border: none !important;
 }
 .locationdesc .card-header {
@@ -116,6 +122,9 @@
   border: 5px solid #007bff !important;
   margin-bottom: 30px;
 }
+.feedback .card:first-child {
+  margin-bottom: 20px;
+}
 .feedback {
   margin-bottom: 60px;
 }
@@ -132,10 +141,8 @@
   .accordionpg {
     margin-bottom: 60px;
   }
-  .listservice .card-columns .card:last-child {
-    margin-bottom: 60px;
-  }
-  .inscomp .card-columns .card:last-child {
+  .listservice,
+  .inscomp {
     margin-bottom: 60px;
   }
   .locationdesc:last-child {
