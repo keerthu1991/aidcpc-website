@@ -2,20 +2,38 @@ import React from 'react';
 import CardInfo from '../common/CardInfo';
 import Hero from '../common/Hero';
 import Container from 'react-bootstrap/Container';
-import { doctorInfo, heroHealthProf } from '../../utilities/doctorstrings';
+import {
+  drCharu,
+  drYasar,
+  heroHealthProf,
+} from '../../utilities/doctorstrings';
 export default function HealthProfessionals() {
   return (
     <>
       <Hero name={heroHealthProf} />
       <Container className="cardinfo">
-        {doctorInfo.map((doctor, idx) => {
+        {drCharu.map((charu, idx) => {
           return (
             <CardInfo
-              title={doctor.title}
-              description={doctor.description}
-              image={doctor.image}
-              href={doctor.href}
-              buttonname={doctor.buttonname}
+              title={charu.title}
+              role={charu.role}
+              description={charu.description}
+              image={charu.image}
+              href={charu.href}
+              buttonname={charu.buttonname}
+              align={charu.align}
+            />
+          );
+        })}
+        {drYasar.map((yasar, idx) => {
+          return (
+            <CardInfo
+              title={yasar.title}
+              description={yasar.description}
+              image={yasar.image}
+              href={yasar.href}
+              buttonname={yasar.buttonname}
+              align={yasar.align}
             />
           );
         })}

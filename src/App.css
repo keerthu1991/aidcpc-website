@@ -42,6 +42,13 @@
   text-align: center;
   background-color: white !important;
 }
+.healthprofessionals .list-group .list-group-item {
+  border: none;
+}
+.healthprofessionals .card-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
 .cardinfo {
   display: flex;
   flex-flow: row wrap;
