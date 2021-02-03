@@ -35,7 +35,7 @@ function Header() {
               <ReactBootstrap.NavDropdown.Item href="/services">
                 AIDC-
                 <br />
-                TREATMENT PROVIDED
+                Treatment Provided
               </ReactBootstrap.NavDropdown.Item>
             </ReactBootstrap.NavDropdown>
             <ReactBootstrap.Nav.Link href="/faqs">
@@ -60,6 +60,11 @@ function Header() {
             </ReactBootstrap.Nav.Link>
             <ReactBootstrap.Nav.Link href="/news">News</ReactBootstrap.Nav.Link>
           </ReactBootstrap.Nav>
+        </ReactBootstrap.Navbar.Collapse>
+        <ReactBootstrap.Navbar.Collapse className="justify-content-end">
+          <ReactBootstrap.Navbar.Text>
+            For Appointments Call: <a href="/">732-230-2828</a>
+          </ReactBootstrap.Navbar.Text>
         </ReactBootstrap.Navbar.Collapse>
       </ReactBootstrap.Navbar>
     </>

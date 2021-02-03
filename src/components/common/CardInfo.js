@@ -11,15 +11,7 @@ import {
 import ListGroup from 'react-bootstrap/ListGroup';
 import { ListGroupItem } from 'react-bootstrap';
 
-export default function CardInfo({
-  title,
-  description,
-  image,
-  href,
-  buttonname,
-  align,
-  role,
-}) {
+export default function CardInfo({ title, description, image, align, role }) {
   return (
     <>
       {align === 'right' ? (

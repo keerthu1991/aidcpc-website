@@ -1,4 +1,5 @@
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-text {
   color: #fff !important;
 }
 .jumbotron {
