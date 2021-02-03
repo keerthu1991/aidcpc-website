@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import {
   drCharuMemberships,
   drCharuAffliations,
@@ -56,9 +55,6 @@ export default function CardInfo({
                 </ListGroup>
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
-              <Button href={href}>{buttonname}</Button>
-            </Card.Footer>
           </Card>
         </>
       ) : (
@@ -93,9 +89,6 @@ export default function CardInfo({
                 </ListGroup>
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
-              <Button href={href}>{buttonname}</Button>
-            </Card.Footer>
           </Card>
         </>
       )}

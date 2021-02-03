@@ -25,7 +25,7 @@ function Header() {
               <ReactBootstrap.NavDropdown.Item href="/locations">
                 Locations
                 <br />
-                (Office,Hospitals,Nursing Homes)
+                (Office,Hospitals)
               </ReactBootstrap.NavDropdown.Item>
             </ReactBootstrap.NavDropdown>
             <ReactBootstrap.NavDropdown

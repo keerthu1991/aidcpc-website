@@ -6,7 +6,6 @@ import Card from 'react-bootstrap/Card';
 import {
   heroLocations,
   hospLocations,
-  nursingHeading,
   nursinglocations,
   offLocation,
   hospHeading,
@@ -41,7 +40,6 @@ export default function Locations() {
         })}
       </Container>
       <Container className="locationdesc">
-        <Card.Header>{nursingHeading}</Card.Header>
         {nursinglocations.map((nursing, idx) => {
           return (
             <LocationDesc

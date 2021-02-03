@@ -20,7 +20,6 @@ export default function HealthProfessionals() {
               description={charu.description}
               image={charu.image}
               href={charu.href}
-              buttonname={charu.buttonname}
               align={charu.align}
             />
           );
@@ -32,7 +31,6 @@ export default function HealthProfessionals() {
               description={yasar.description}
               image={yasar.image}
               href={yasar.href}
-              buttonname={yasar.buttonname}
               align={yasar.align}
             />
           );

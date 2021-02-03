@@ -7,7 +7,6 @@ const drCharu = [
     image: 'images/charu.jpg',
     href:
       'https://www.healthgrades.com/physician/dr-charumathi-rathnakumar-3kn8v',
-    buttonname: 'View Profile',
     align: 'right',
   },
 ];
@@ -15,7 +14,7 @@ const drCharu = [
 const drCharuAffliations = [
   '• Hackensack Meridian Health - JFK Medical Center, Edison, NJ',
   '•	Robert wood Johnson University Hospital, Rahway, NJ',
-  '•	Kindred Nursing Homes',
+  '•	Kindred Hospital',
 ];
 
 const drCharuMemberships = [
@@ -33,6 +32,7 @@ const drCharuEducation = [
 const drYasarAffliations = [
   '•	Hackensack Meridian Health - JFK Medical Center, Edison, NJ',
   '•	Robert wood Johnson University Hospital, Rahway, NJ',
+  '•	Kindred Hospital',
 ];
 
 const drYasarMemberships = [
@@ -54,7 +54,6 @@ const drYasar = [
       'Dr. Mukaddes Yasar specializes in infectious disease and has over 14 years of experience in the field of medicine and Infectious Diseases.  She is affiliated with numerous hospitals, including Robert Wood Johnson University Hospital, Rahway (NJ) and JFK Medical Center, Edison (NJ).',
     href:
       'https://doctors.hackensackmeridianhealth.org/provider/Mukaddes+Yasar/1319777',
-    buttonname: 'View Profile',
     align: 'left',
     image: 'images/yasar.png',
   },

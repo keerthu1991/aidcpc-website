@@ -23,14 +23,13 @@ const offLocation = [
 ];
 const nursinglocations = [
   {
-    title: 'Kindred Healthcare',
-    description: '680 South Fourth St Louisville, KY 40202',
+    title: 'Kindred Hospital',
+    description: '865 Stone St, Rahway, NJ 07065',
     image: 'images/kindred.jpg',
     align: 'left',
   },
 ];
 const hospHeading = 'Hospitals Affliated';
-const nursingHeading = 'Nursing Homes';
 const heroLocations = 'Locations';
 
 export {
@@ -38,6 +37,5 @@ export {
   hospLocations,
   offLocation,
   hospHeading,
-  nursingHeading,
   nursinglocations,
 };
