@@ -63,7 +63,7 @@ function Header() {
         </ReactBootstrap.Navbar.Collapse>
         <ReactBootstrap.Navbar.Collapse className="justify-content-end">
           <ReactBootstrap.Navbar.Text>
-            For Appointments Call: <a href="/">732-230-2828</a>
+            For Appointments Call: <a href="/requestapt">732-230-2828</a>
           </ReactBootstrap.Navbar.Text>
         </ReactBootstrap.Navbar.Collapse>
       </ReactBootstrap.Navbar>
