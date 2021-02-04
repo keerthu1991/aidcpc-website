@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <footer className="footer-bg">
-        <span className="contact">Contact:(732) 514-9624</span>|
+        <span className="contact">Contact:(732) 230-2828</span>|
         <span className="location">Location: NJ</span>|
         <span className="copyright">Copyright &copy; 2020</span>|
         <span className="developer">
@@ -13,7 +13,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Developed by Keerthanambika N
+            K N
           </a>
         </span>
       </footer>
