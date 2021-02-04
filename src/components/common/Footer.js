@@ -13,7 +13,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            K N
+            Developed by K N
           </a>
         </span>
       </footer>

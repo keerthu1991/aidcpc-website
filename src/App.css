@@ -7,6 +7,15 @@
   background-image: linear-gradient(45deg, #007bff, white);
   color: #fff;
 }
+.requestapt {
+  margin-top: 120px;
+  margin-bottom: 400px;
+}
+.requestapt .jumbotron.jumbotron-fluid {
+  background-color: #d4edda !important;
+  background-image: none !important;
+  color: #155724;
+}
 .bg-primary {
   background-image: linear-gradient(45deg, black, transparent);
 }
@@ -59,9 +68,11 @@
 .mailto,
 .download,
 .listservice,
-.inscomp,
-.accordionpg {
+.inscomp {
   margin-bottom: 40px;
+}
+.accordionpg {
+  margin-bottom: 350px;
 }
 .inscomp .card:first-child {
   border: none;
